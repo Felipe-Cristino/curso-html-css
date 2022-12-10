@@ -110,30 +110,33 @@ main {
 #marine-friesen {
     display: grid;
     grid-template-columns: 1fr 1.7fr 3fr 1fr;
+    grid-template-rows: 1.3fr 1fr 1fr;
     gap: 0px 10px;
+    grid-template-areas: 'img h1 h1 icons'
+                         'img h2 h2 p'
+                         'img button1 button2 button2';
+
     
 }
 
 #marine-friesen > img {
     border-radius: 50% 50% 50% 10px;
     display: inline-block;
-    grid-column: 1/2;
-    grid-row: 1/4;
+    width: 130px;
+    grid-area: img;
 }
 
 h1 {
     font-size: 2.5em;
     display: inline-block;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-area: h1;
 }
 
 h2 {
     font-size: 1.8em;
     color: orangered;
     display: inline-block;
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-area: h2;
 }
 
 #button1 {
@@ -142,9 +145,7 @@ h2 {
     padding: 10px 0px;
     border-radius: 10px;
     display: inline-block;
-    box-shadow: none;
-    grid-column: 2/3;
-    grid-row: 3/4;
+    grid-area: button1;
     cursor: pointer;
 }
 
@@ -154,23 +155,21 @@ h2 {
     padding: 10px;
     border-radius: 10px;
     display: inline-block;
-    box-shadow: none;
     width: 150px;
     height: 40px;
-    grid-column: 3/4;
-    grid-row: 3/4;
+    cursor: pointer;
+    grid-area: button2;
+
     
 }
 
 .icons {
-    grid-column: 4/5;
-    grid-row: 1/2;
+    grid-area: icons;
     justify-self: flex-end;
 }
 
 #marine-friesen p {
-    grid-column: 4/5;
-    grid-row: 2/3;
+    grid-area: p;
     justify-self: flex-end;
 }
 
@@ -200,7 +199,7 @@ section > nav > a#border {
     display: inline-block;
 }
 
-a.linha {
+a:nth-child(9), a:nth-child(11), a:nth-child(14){
     border-bottom: 1px solid rgba(128, 128, 128, 0.573);
     padding: 10px;
 }
