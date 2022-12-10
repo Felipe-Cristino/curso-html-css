@@ -1,0 +1,11 @@
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url("animais1.jpg");
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment;
+}
+

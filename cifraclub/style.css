@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header > div > a > img#logo {
+    width: 120px;
+}
+
+header > div > label > input[type="text"] {
+
+    width: 450px;
+    height: 22px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+header > div#header > label > div {
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: -50px;
+    position: relative;
+    transform: translate(-90px, -9px);
+    cursor: pointer;
+}
+
+div > i {
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header > div > nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header > div > nav {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+header > div > nav > a:nth-child(4){
+    border-right: 2px dotted rgba(211, 211, 211, 0.651);
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+div#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#propaganda > a {
+    text-decoration: none;
+    color:rgb(116, 116, 116);
+    margin: 20px;
+    font-size: 0.9em;
+}
+
+#propaganda > a:first-child {
+    margin-left: 0px;
+}
+
+#propaganda > i {
+    color:rgb(116, 116, 116);
+    font-size: 0.8em;
+}
+
+main {
+    max-width: 1150px;
+    margin: 20px auto;
+    margin-top: 100px;
+    
+}
+
+.propaganda {
+    width: 1150px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: rgb(237, 235, 235);
+}
+
+
+
+#marine-friesen {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr 3fr 1fr;
+    gap: 0px 10px;
+    
+}
+
+#marine-friesen > img {
+    border-radius: 50% 50% 50% 10px;
+    display: inline-block;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+h1 {
+    font-size: 2.5em;
+    display: inline-block;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: orangered;
+    display: inline-block;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#button1 {
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: none;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    cursor: pointer;
+}
+
+#button2 {
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: none;
+    width: 150px;
+    height: 40px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    
+}
+
+.icons {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    justify-self: flex-end;
+}
+
+#marine-friesen p {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    justify-self: flex-end;
+}
+
+section > nav {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 100px;
+}
+
+section > nav > a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+section > nav > a#border {
+    border: 1px solid rgba(128, 128, 128, 0.664);
+    border-radius: 10px;
+    margin: 5px 5px 5px 0px;
+    padding: 10px;
+}
+
+#secãonav {
+    display: inline-block;
+}
+
+a.linha {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.573);
+    padding: 10px;
+}
+
+a.pro {
+    background-color: rgb(255, 106, 0);
+    border-radius: 10px;
+    color: white;
+}
+
+aside {
+    display: inline-block;
+    margin: 20px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+}
+
+aside p {
+    padding: 10px;
+}

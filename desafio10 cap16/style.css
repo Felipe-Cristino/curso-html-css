@@ -1,0 +1,145 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+header {
+    background: linear-gradient(to top, #0e6d25 30%, #5fc75f 70%);
+    color: white;
+    padding-top: 40px;
+
+}
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+header p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+header a {
+    
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #0e6d25;
+  color: lightgreen;
+}
+
+
+nav {
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+h2 {
+    color: #0e6d25;
+    background: linear-gradient(to right, rgba(195, 220, 195, 0.514) 10%, white 90%);
+}
+
+main h1 {
+    color:#0e6d25;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+main p {
+  line-height: 1.2em;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px 20px;
+    background-color: white;
+    text-align: justify;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main p {
+  text-indent: 30px;
+}
+main img {
+  width: 100%;
+}
+
+main img.pequena {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+div.video {
+  background-color: #0e6d25;
+  margin: 0 -20px 20px -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 58%;
+}
+
+div.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+  aside > ul > li {
+    list-style: none;
+    margin-left: 0;
+
+}
+
+aside > ul > li:before {
+    content: '✓ ';
+  }
+
+  .divul {
+    margin: 0;
+  }
+
+  aside > ul {
+    columns: 2;
+    margin: 20px 0;
+  }
+
+  aside {
+    background-color: lightgreen;
+    border-radius: 10px; 
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
+
+  h3 {
+    background-color: #0e6d25;
+    color: white;
+    padding: 10px 10px;
+    margin-left: -15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+footer {
+    color: white;
+    background-color: #0e6d25;
+    margin-top: 20px;
+    text-align: center;
+}
